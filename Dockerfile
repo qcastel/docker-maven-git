@@ -1,3 +1,3 @@
-FROM maven:3.6.1-jdk-11-slim
+FROM maven:3.6-openjdk-14-slim
 
 RUN apt-get update && apt-get -y install git
